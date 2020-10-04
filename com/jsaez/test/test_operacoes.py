@@ -4,3 +4,12 @@ def verificapar(num):
         return 'É par'
     else:
         return 'Nao e par'
+
+def test_par():
+    assert verificapar(4) == 'É par'
+    
+def test_naopar():
+    assert verificapar(5) == 'Nao e par'
+
+def test_string():
+    assert verificapar('Quatro') == 'É par'
