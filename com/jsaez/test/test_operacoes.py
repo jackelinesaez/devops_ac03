@@ -10,6 +10,3 @@ def test_par():
     
 def test_naopar():
     assert verificapar(5) == 'Nao e par'
-
-def test_string():
-    assert verificapar('Quatro') == 'É par'
